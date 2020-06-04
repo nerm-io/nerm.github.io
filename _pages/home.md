@@ -1,36 +1,39 @@
 ---
+title: "Generic Firmware OTA Updates"
 layout: splash
 permalink: /
 header:
-  overlay_color: "#5e616c"
-  overlay_image: mm-home-page-feature.jpg
-  cta_label: "<i class='fa fa-download'></i> Install Now"
-  cta_url: "/docs/quick-start-guide/"
-  caption:
-excerpt: 'A flexible two-column Jekyll theme. Perfect for personal sites, blogs, and portfolios hosted on GitHub or your own server.<br /> <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/3.4.8">Latest release v3.4.8</a></small><br /><br /> {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
+  overlay_color: "#00838f"
+  overlay_image: assets/images/nerm-home-page-feature.jpg
+  overlay_filter: 0.5
+  caption: "Photo credit: [**einfochips**](https://einfochips.com)"
+  actions:
+    - label: "Details"
+      url: "https://github.com/nerm-io/"
+excerpt: "Simple and secure OTA implementation for different type microcontrollers and communication modules. IoT firmware OTA software upgrades made easy." 
+intro:
+  - excerpt: " "
 feature_row:
-  - image_path: mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super Customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: assets/images/nerm-security-feature.jpg
+    alt: "Secure Bootlader"
+    title: "Secure Bootloader and OTA Updates"
+    excerpt: "Secure and reliable OTA update architecture."
+    url: " "
     btn_label: "Learn More"
-  - image_path: mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive Layouts"
-    excerpt: "Built on HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: assets/images/nerm-supports-different-hws.png
+    alt: "Supports Different Hardwares"
+    title: "Supports Different Hardwares"
+    excerpt: "Supports microcontrollers like ESP32, ESP8266, STM32, Microchip, Atmel and nRF52 and different connection solutions such as Ethernet, Wifi, GSM Modules, Bluetooth and LORA"
+    url: " "
     btn_label: "Learn More"
-  - image_path: mm-free-feature.png
-    alt: "100% free"
-    title: "100% Free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it, whatever!"
-    url: "/docs/license/"
+  - image_path: assets/images/nerm-opensource-feature.gif
+    alt: "Open Source"
+    title: "Open Source"
+    excerpt: "Server and client side source codes are open"
+    url: " "
     btn_label: "Learn More"
 github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=mmistakes&repo=minimal-mistakes&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
-intro:
-  - excerpt: 'Get notified when I add new stuff &nbsp; [<i class="fa fa-twitter"></i> @mmistakes](https://twitter.com/mmistakes){: .btn .btn--twitter}'
 ---
 
 {% include feature_row id="intro" type="center" %}
