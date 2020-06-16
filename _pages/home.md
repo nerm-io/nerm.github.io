@@ -1,16 +1,16 @@
 ---
-title: "Generic Firmware OTA Updates"
+title: ""
 layout: splash
 permalink: /
 header:
   overlay_color: "#00838f"
   overlay_image: assets/images/nerm-home-page-feature.jpg
   overlay_filter: 0.5
-  caption: "Photo credit: [**einfochips**](https://einfochips.com)"
+  caption: "Photo credit: **einfochips**"
   actions:
     - label: "Details"
       url: "https://github.com/nerm-io/"
-excerpt: "Simple and secure OTA implementation for different type microcontrollers and communication modules. IoT firmware OTA software upgrades made easy." 
+excerpt: "Simple and secure OTA updates implementation for different type microcontrollers and communication modules. IoT firmware OTA software upgrades made easy." 
 intro:
   - excerpt: " "
 feature_row:
